@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/homee"
+        android:title="หน้าแรก" />
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/chatt"
+        android:title="แชทกับคุณหมอ" />
+
+    <item
+        android:id="@+id/navigation_calculator"
+        android:icon="@drawable/edittt"
+        android:title="บันทึกอาหาร" />
+
+    <item
+        android:id="@+id/navigation_menu"
+        android:icon="@drawable/menuu"
+        android:title="เมนูแนะนำ" />
+
+    <item
+        android:id="@+id/navigation_baby"
+        android:icon="@drawable/baby"
+        android:title="ข้อมูลลูกน้อย" />
+
+
+</menu>

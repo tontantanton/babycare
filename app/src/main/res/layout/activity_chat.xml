@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellow"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/eakamai"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="ปรึกษาคุณหมอ"
+            android:textColor="@color/lightqray"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.AppBarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--<android.support.v7.widget.Toolbar-->
+                        <!--android:id="@+id/toolbar"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="80dp"-->
+                        <!--android:background="@color/bglogin"-->
+                        <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+                        <!--app:popupTheme="@style/MenuStyle">-->
+
+                        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                            <!--android:id="@+id/profile_image"-->
+                            <!--android:layout_width="50dp"-->
+                            <!--android:layout_height="50dp" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/username"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginStart="25dp"-->
+                            <!--android:layout_marginLeft="25dp"-->
+                            <!--android:fontFamily="@font/eakamai"-->
+                            <!--android:textColor="@color/white"-->
+                            <!--android:textSize="18dp"-->
+                            <!--android:textStyle="bold" />-->
+
+                    <!--</android.support.v7.widget.Toolbar>-->
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tab_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/bgregister"
+                        app:tabIndicatorColor="@color/colorAccent"
+                        app:tabSelectedTextColor="@color/white"
+                        app:tabTextAppearance="@style/TabTextAppearance"
+                        app:tabTextColor="@color/white" />
+                </android.support.design.widget.AppBarLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="581dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </android.support.v4.view.ViewPager>
+
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/lightqray"
+        app:itemIconTint="@color/yellow"
+        app:itemTextColor="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation"
+        android:theme="@style/Widget.BottomNavigationView"
+        />
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal">-->
+
+</LinearLayout>

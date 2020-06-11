@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Page_detail">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellow"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/eakamai"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="เพิ่มรายการอาหารคุณแม่"
+            android:textColor="@color/lightqray"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+
+
+            <TextView
+                android:id="@+id/text_user_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_user_id"
+
+                android:textColor="@color/black"
+                android:visibility="gone"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="ชื่อเมนู :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <EditText
+                    android:id="@+id/ed_name_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:hint="ชื่อเมนู" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="ปริมาณ :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <EditText
+                    android:id="@+id/ed_text_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:hint="ปริมาณ" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/text_s_result_calories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_s_result_calories"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_s_calories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_calories"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_s_protein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_protein"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_s_vitamina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_vitamina"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_s_vitaminc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_vitaminc"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_s_vitaminb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_vitaminb6"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_s_vitaminb12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_vitaminb12"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_s_calcium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_calcium"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_s_iodine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_iodine"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_s_iron"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_iron"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            //////////////////////////////////////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/text_total_calories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_total_calories"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_total_protein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_total_protein"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_total_vitamina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_total_protein"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_total_vitaminc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_total_protein"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_total_vitaminb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_total_protein"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_total_vitaminb12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_total_protein"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_total_calcium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_total_protein"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_total_iodine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_total_protein"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_total_iron"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="text_total_protein"
+
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+
+            <EditText
+                android:id="@+id/search_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/ic_menu_search"
+                android:hint="Input ingredient"
+                android:visibility="gone"></EditText>
+
+            <Button
+                android:id="@+id/clearSearch"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/search_field"
+                android:background="@android:color/transparent"
+                android:onClick="clearSearchText"
+                android:text="X"
+                android:textColor="@android:color/darker_gray"
+                android:visibility="gone"
+                tools:ignore="OnClick"
+
+                />
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/search_field"
+                android:onClick="searchIngredient"
+                android:text="SEARCH"
+                android:visibility="gone"
+                tools:ignore="OnClick"
+
+                />
+
+            <ListView
+                android:id="@+id/recipe_list"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                ></ListView>
+
+
+            <Button
+                android:id="@+id/b_action_1"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/button_calculator"
+                android:drawableLeft="@drawable/result"
+                android:fontFamily="@font/eakamai"
+                android:gravity="center"
+                android:text="ADD MEMU MOM"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

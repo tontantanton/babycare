@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgregister"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+
+            android:hint="E-mail"
+            android:fontFamily="@font/eakamai"
+            android:drawableLeft="@drawable/user"/>
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+
+            android:hint="รหัสผ่าน"
+            android:fontFamily="@font/eakamai"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/password"/>
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_login"
+            android:text="เข้าสู่ระบบ"
+            android:fontFamily="@font/eakamai"
+            android:textColor="@android:color/black"
+
+            />
+
+        <!--<Button-->
+        <!--android:id="@+id/btn_reset_password"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dip"-->
+        <!--android:background="@null"-->
+        <!--android:text="ลืมรหัสผ่าน?"-->
+        <!--android:fontFamily="@font/eakamai"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@color/gray" />-->
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:text="คุณไม่ใช่สมาชิก? สมัครสมาชิกกดที่นี่!!"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:fontFamily="@font/eakamai"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

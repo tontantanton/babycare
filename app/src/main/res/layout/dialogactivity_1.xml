@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="tv_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_calories"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="tv_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_calcium"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="tv_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_protein"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="tv_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_vitamina"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="tv_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_vitaminc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="tv_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_vitaminb6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="tv_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_vitaminb12"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="tv_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_iodine"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="tv_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_iron"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="tv_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+android:visibility="gone"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textview_seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/eakamai"
+        android:paddingLeft="10dp"
+        android:paddingTop="40dp"
+        android:paddingRight="10dp"
+        android:text="กรุณาระบุปริมาณอาหารที่ลูกน้อยรับประทานอาหาร"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/thsarabun"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:text="( ระบุปริมาณอาหารเป็นจำนวนเปอร์เซ็นต์ที่รับประทานอาหารต่อหน่วย เช่น รับประทาน 1 จานระบุ 100% )"
+        android:textSize="13dp"
+
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <com.xw.repo.BubbleSeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            app:bsb_bubble_color="#f9ac27"
+            app:bsb_bubble_text_color="@color/white"
+            app:bsb_bubble_text_size="15dp"
+            app:bsb_max="100"
+            app:bsb_min="0"
+            app:bsb_progress="0"
+            app:bsb_second_track_color="#f9ac27"
+            app:bsb_second_track_size="5dp"
+            app:bsb_section_count="5"
+            app:bsb_section_text_position="bottom_sides"
+            app:bsb_show_progress_in_float="false"
+            app:bsb_show_section_mark="true"
+            app:bsb_show_section_text="true"
+            app:bsb_show_thumb_text="true"
+            app:bsb_thumb_text_size="15dp"
+            app:bsb_track_color="@color/gray"
+
+            />
+
+        <TextView
+            android:id="@+id/textview_persen"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="0 %"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+        <EditText
+            android:id="@+id/text_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="0 %"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_cancel"
+            android:layout_width="150dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_calculator"
+            android:fontFamily="@font/eakamai"
+
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+            android:text="ยกเลิก" />
+
+        <Button
+            android:id="@+id/b_ok"
+            android:layout_width="150dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_calculator"
+            android:fontFamily="@font/eakamai"
+
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="ตกลง" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

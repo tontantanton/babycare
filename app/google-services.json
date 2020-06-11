@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "448631064907",
+    "firebase_url": "https://babycare-87875.firebaseio.com",
+    "project_id": "babycare-87875",
+    "storage_bucket": "babycare-87875.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448631064907:android:eb85254ea392a977",
+        "android_client_info": {
+          "package_name": "com.example.babycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448631064907-5d6pu81r0llttrehe5528jlqu785iqdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babycare",
+            "certificate_hash": "af0e25153bfe9fc03ee865dfa796b1cd11f7285d"
+          }
+        },
+        {
+          "client_id": "448631064907-nhakjjejqv4gcevrqqnisuo2gipneo76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babycare",
+            "certificate_hash": "920f137a6703a69994f61456a0fa15e15debc97b"
+          }
+        },
+        {
+          "client_id": "448631064907-gu70sq0uhpg549e8siq5q1ua8hq45d68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babycare",
+            "certificate_hash": "2ec8ac06f810228b8d0f4ded0526454781c626d9"
+          }
+        },
+        {
+          "client_id": "448631064907-mgjh7c21btqfr3dkqmgtkmjk8i9890un.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhWFrxpV-Oymk0iUzzbnMxe5DaAghpauw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448631064907-mgjh7c21btqfr3dkqmgtkmjk8i9890un.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
